@@ -1,0 +1,61 @@
+body{
+    margin: 0 auto;
+    font-size:150px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;  
+    background-color: rgb(230, 255, 253);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+
+}
+.center-flexbox{
+    width: 400px;
+    border-radius: 30px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    background-color: rgba(183, 153, 255, 0.3);
+}
+
+.flex-row-one, .flex-row-two, 
+.flex-row-three, .flex-row-four, 
+.flex-row-five, .flex-row-six{
+    font-size: 25%;
+    display: flex;
+    flex-direction: row;
+    align-items:flex-end;
+    justify-content:space-around;
+    padding: 10px;
+    margin:5px;
+}
+
+.box-number{
+    padding: 30px;
+    border-radius: 10px;
+    border: none;
+}
+
+.answer-box{
+    display: block;
+    position: relative;
+    justify-content: center;
+    font-size:20px;
+    text-align: center;
+    width: 80%;
+    height: 10px;
+    padding: 20px;
+    margin:20px;
+    background: whitesmoke;
+}
+
+#one:active, #two:active, #three:active, 
+#four:active, #five:active, #six:active, 
+#seven:active,#eight:active,#nine:active,
+#zero:active,#plus:active,#minus:active,
+#multiply:active,#divide:active,#start:active{
+    background-color: rgb(183, 153, 255);
+
+}
+

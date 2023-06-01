@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="calc.css" rel="stylesheet" />
+    <script src="script.js"></script>
+    <title>Sample Calculator</title>
+</head>
+<body>
+        <div>
+            <div class="center-flexbox">
+                <div class="flex-row-one">
+                    <div><input type="button" class="box-number" id="one" onclick="click_one()" value="1"/></div>
+                    <div><input type="button" class="box-number" id="two" onclick="click_two()" value="2"/></div>
+                    <div><input type="button" class="box-number" id="three" onclick="click_three()" value="3"/></div>
+                </div>
+                <div class="flex-row-two">
+                    <div><input type="button" class="box-number" id="four" onclick="click_four()" value="4"/></div>
+                    <div><input type="button" class="box-number" id="five" onclick="click_five()" value="5"/></div>
+                    <div><input type="button" class="box-number" id="six" onclick="click_six()" value="6"/></div>
+                </div>
+                <div class="flex-row-three">
+                    <div><input type="button" class="box-number" id="seven" onclick="click_seven()" value="7"/></div>
+                    <div><input type="button" class="box-number" id="eight" onclick="click_eight()" value="8"/></div>
+                    <div><input type="button" class="box-number" id="nine" onclick="click_nine()" value="9"/></div>
+                </div>
+                <div class="flex-row-four">
+                    <div><input type="button" class="box-number" id="zero" onclick="click_zero()" value="0"/></div>
+                    <div><input type="button" class="box-number" id="start" onclick="start_calc()" value="start"/></div>
+
+                </div>
+                <div class="flex-row-five">
+                    <div><input type="button" class="box-number" id="plus" onclick="click_plus()" value="+"/></div>
+                    <div><input type="button" class="box-number" id="minus" onclick="click_minus()" value="-"/></div>
+                    <div><input type="button" class="box-number" id="multiply" onclick="click_multiply()" value="*"/></div>
+                    <div><input type="button" class="box-number" id="divide" onclick="click_divide()" value="/"/></div>
+                    <div><input type="button" class="box-number" id="equals" onclick="click_equals()" value="="/></div>
+                </div>
+
+                <span id="box" class="answer-box"></span>
+                
+ 
+              
+            </div>
+        </div>
+    
+</body>
+</html>
